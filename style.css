@@ -24,11 +24,11 @@ header{
     z-index: 1000;
 }
 .logo{
+    color: #fff;
     font-size: 1.3rem;
     font-weight: 600;
-    color: #fff:aquamarine
     text-wrap: nowrap;
-    transition: 0.3s;ease-in-out;
+    transition: 0.3s ease-in-out;
 }
 .logo:hover{
     transform: scale(1.1);
@@ -51,7 +51,7 @@ li a::before{
     top: 25px;
     border-radius: 1rem;
     transition: transform 0.3s ease-in-out;
-    background: linear-gradient(to right, #5499C7, #7Fb3D5,);
+    background: linear-gradient(to right, rgb(81, 0, 255), rgb(0, 213, 255));
 }
 li a:hover::before{
     width: 100%;
@@ -66,10 +66,10 @@ li a:hover::before{
     cursor: pointer;
     text-wrap: nowrap;
     transition: 0.3s ease-in-out;  
-     background: linear-gradient(to right, #5499C7, #7Fb3D5,);
+    background: linear-gradient(to right, rgb(81, 0, 255), rgb(0, 213, 255));
 }
 .visit-btn:hover{
-     background: linear-gradient(to right, #7Fb3D5, #5499C7, );
+    background: linear-gradient(to right, rgb(0, 213, 255), rgb(81, 0, 255));
     transform: scale(1.03);
 }
 #menu-icon{
